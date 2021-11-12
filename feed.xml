@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:D295C17A-3B55-44B6-9826-3D178D41A97F</id>
+ <title>Page list Atom feed</title>
+ <updated>2011-12-11T17:53:02+01:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:B0CD5412-E6A7-4C65-B896-B66D534DDA90</id>
+  <title>Bienvenue</title>
+  <title xmlns="urn:iweb:">Bienvenue</title>
+  <in-navbar xmlns="urn:iweb:">B0CD5412-E6A7-4C65-B896-B66D534DDA90</in-navbar>
+  <link rel="alternate" href="Bienvenue.html"/>
+  <updated>2011-12-11T17:53:02.001+01:00</updated>
+  <content>Bienvenue</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:AC33CBBE-81D1-4CB4-899B-2F0500126F67</id>
+  <title>Principe</title>
+  <title xmlns="urn:iweb:">Principe</title>
+  <in-navbar xmlns="urn:iweb:">AC33CBBE-81D1-4CB4-899B-2F0500126F67</in-navbar>
+  <link rel="alternate" href="Principe.html"/>
+  <updated>2011-12-11T17:53:02.002+01:00</updated>
+  <content>Principe</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:BF464768-3203-4608-9AFD-E1FA5A8586E1</id>
+  <title>Installation</title>
+  <title xmlns="urn:iweb:">Installation</title>
+  <in-navbar xmlns="urn:iweb:">BF464768-3203-4608-9AFD-E1FA5A8586E1</in-navbar>
+  <link rel="alternate" href="Installation.html"/>
+  <updated>2011-12-11T17:53:02.003+01:00</updated>
+  <content>Installation</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:F6F466E3-E25F-456F-AC5E-E5400DFF2D63</id>
+  <title>Tuto</title>
+  <title xmlns="urn:iweb:">Tuto</title>
+  <in-navbar xmlns="urn:iweb:">F6F466E3-E25F-456F-AC5E-E5400DFF2D63</in-navbar>
+  <link rel="alternate" href="Tuto.html"/>
+  <updated>2011-12-11T17:53:02.004+01:00</updated>
+  <content>Tuto</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:CAF897CF-9572-498E-8098-E4A70E77E8F0</id>
+  <title>Spécifications</title>
+  <title xmlns="urn:iweb:">Spécifications</title>
+  <in-navbar xmlns="urn:iweb:">CAF897CF-9572-498E-8098-E4A70E77E8F0</in-navbar>
+  <link rel="alternate" href="Specifications.html"/>
+  <updated>2011-12-11T17:53:02.005+01:00</updated>
+  <content>Spécifications</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:7D9781AB-28C3-4CB5-940D-582BC37740E8</id>
+  <title>Downloads</title>
+  <title xmlns="urn:iweb:">Downloads</title>
+  <in-navbar xmlns="urn:iweb:">7D9781AB-28C3-4CB5-940D-582BC37740E8</in-navbar>
+  <link rel="alternate" href="Downloads.html"/>
+  <updated>2011-12-11T17:53:02.006+01:00</updated>
+  <content>Downloads</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:91907877-9C81-485B-95B8-3B41883F7863</id>
+  <title>Liens</title>
+  <title xmlns="urn:iweb:">Liens</title>
+  <in-navbar xmlns="urn:iweb:">91907877-9C81-485B-95B8-3B41883F7863</in-navbar>
+  <link rel="alternate" href="Liens.html"/>
+  <updated>2011-12-11T17:53:02.007+01:00</updated>
+  <content>Liens</content>
+ </entry>
+</feed>

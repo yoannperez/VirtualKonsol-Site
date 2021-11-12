@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20110802" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Live comme  séquenceur / Max/msp comme Konsole</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Principe_files/Principe.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Principe_files/PrincipeIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Principe_files/Principe.js"></script>
+  </head>
+  <body style="background: rgb(25, 21, 21); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  text-align: left; width: 700px; " id="body_content">
+        <div style="background: transparent url(Principe_files/rp_tile_v6.jpg) repeat scroll top left; width: 700px; ">
+          <div style="height: 125px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div style="height: 125px; width: 637px;  height: 125px; left: 32px; position: absolute; top: 0px; width: 637px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 637px; ">
+                <img src="Principe_files/shapeimage_1.png" alt="V.K.L  (Virtual Konsol for Live)" style="height: 56px; left: 0px; margin-left: 1px; margin-top: 52px; position: absolute; top: 0px; width: 434px; " />
+              </div>
+            </div>
+          </div>
+          <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div style="height: 490px; width: 700px;  height: 490px; left: 0px; position: absolute; top: -489px; width: 700px; z-index: 1; " class="tinyText style_SkipStroke">
+              <img src="Principe_files/navfill-v2.jpg" alt="" style="border: none; height: 490px; width: 700px; " />
+            </div>
+            <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+            <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 0px; margin-top: -1px; opacity: 1.00; position: relative; width: 781px; z-index: 1; ">
+    
+              <div id="widget0-navbar" class="navbar">
+
+      
+                <div id="widget0-bg" class="navbar-bg">
+
+        
+                  <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                  
+      
+</div>
+                
+    
+</div>
+            </div>
+            <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Courier New', Courier, monospace, serif;\n\tfont-size: 1.1em;\n\tcolor: #AFAA9F;\n\tmargin: -2px 0 0 0px;\n\tline-height: 20px;\n\tpadding: 5px 0 12px 0;\n\tfont-weight: bold;\n\tbackground-image: url(Principe_files\/navfill-v2_1.jpg);\n}\n\n.navbar-bg {\n\ttext-align: left;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0 10px 0 30px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 25px 0 0;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #AFAA9F;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #AFAA9F;\n}\n\nli a:hover\n{\n \tcolor: #D64600;\n}\n\n\nli.current-page a\n{\n\t color: #fff;\n\n}\n", "current-page-GUID": "AC33CBBE-81D1-4CB4-899B-2F0500126F67", "isCollectionPage": "NO"});
+//--><!]]></script>
+            <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+          </div>
+          <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+            <div style="height: 25px; width: 700px;  height: 25px; left: 0px; position: absolute; top: -15px; width: 700px; z-index: 1; " class="tinyText style_SkipStroke_1">
+              <img src="Principe_files/pagetop10.png" alt="" style="border: none; height: 25px; width: 700px; " />
+            </div>
+            
+
+
+            <div style="height: 52px; width: 655px;  height: 52px; left: 23px; position: absolute; top: 0px; width: 655px; z-index: 1; " class="tinyText style_SkipStrokeSkipFillSkipOpacity">
+              <div style="position: relative; width: 655px; ">
+                <img src="Principe_files/shapeimage_2.png" alt="Live comme  séquenceur / Max/msp comme Konsole" style="height: 38px; left: 0px; margin-left: 5px; margin-top: 5px; position: absolute; top: 0px; width: 636px; " />
+              </div>
+            </div>
+            
+
+
+            <div id="id1" style="height: 553px; left: 37px; position: absolute; top: 40px; width: 626px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+              <div class="text-content style_External_626_553" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; " class="Body">    L’idée serait d’utiliser Live comme lecteur, et d’utiliser MAX/MSP pour le routing et le traitement des points de diffusions. De telle façon que l’utilisation d’une console ne serait plus nécessaire.<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="Body">    Max for Live offre des possibilités encore plus grande, cependant la plupart d’entre nous n’ont qu’une licence Live classique, c’est pourquoi ce projet reste, pour cette phase du moins, basée sur cette version.<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="Body">    Le patch Max étant diffusé sous licence <span style="line-height: 23px; " class="style_1">Creative Commons</span>, son utilisation n’entraine aucun frais supplémentaire pour les possesseurs d’un ordinateur, d’une carte son et d’une licence Live.<br /></p>
+                  <p class="Body">Et pour les productions et les compagnies, l’achat d’une console de mixage n’est plus nécessaire pour les exploitations et tournées .<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="Body">    Le premier problème rencontré dans cette quête fut le moyen de lier des sorties audio d’Ableton Live et les entrer sous MAX/MSP. La première idée fut d’utiliser le protocole Rewire. Après plusieurs essais, le principe n’a pas l’air de fonctionner, entrainant des plantages. Finalement, je me suis penché vers un driver audio tiers, SoundFlower développé par Cycling74’, en téléchargement à cette adresse <a title="http://cycling74.com/products/soundflower/" href="http://cycling74.com/products/soundflower/">http://cycling74.com/products/soundflower/</a>.<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="Body">    Cette solution est fiable a mon goût, n’ayant essuyé aucun plantage de ce côté là durant mes phases de développement. <br /></p>
+                  <p class="Body">    Ce driver nous offre 16 canaux audio au seins même de MacOSX, ce qui nous permet d’imaginer 8 lecteurs stéréo au maximum sous live, et qui seront traité avec MAX. A long terme, ce projet proposera 6 lecteurs statiques, 4 lecteurs dynamiques.<br /></p>
+                  <p class="Body">Voici un schéma du routage audio:<br /></p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id2" style="height: 196px; left: 38px; position: absolute; top: 731px; width: 626px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
+              <div class="text-content style_External_626_196" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; " class="Body">    L’autre problématique est de permettre des déclenchements de changement de routing des lecteurs.<br /></p>
+                  <p class="Body">    Pour ceci, le système utilise des messages Midi. Le Program Change pour changer de mémoire et les messages de Sous-Bank pour l'identification des lecteurs. Pour se faire, l’utilisation du bus IAC interne à MacOS est nécessaire.<br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="Body"><br /></p>
+                  <p class="Body"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="Body">Sous Live, la session ressemble à çà:</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div style="height: 112px; width: 647px;  height: 112px; left: 42px; position: absolute; top: 602px; width: 647px; z-index: 1; " class="tinyText style_SkipStroke_4">
+              <img src="Principe_files/RoutingAudio.png" alt="" style="border: none; height: 113px; width: 647px; " />
+            </div>
+            
+
+
+            <div id="id3" style="height: 175px; left: 37px; position: absolute; top: 1346px; width: 626px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
+              <div class="text-content style_External_626_175" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; " class="Body">    Nous avons 4 pistes de lecture audio, auxquelles 4 pistes MIDI sont associées.<br /></p>
+                  <p class="Body">    L’édition des pistes audio (Point d’entrée, point de sortie, loop, warp, ect...) se déroule comme d’habitude. La sortie des lecteurs est assignée à une sortie stéréo du driver Soundflower (qui sera récupérée par le MKL plus tard dans la chaine audio).<br /></p>
+                  <p class="Body">    Sur chaque piste MIDI, des événements sont pré assignés pour déclencher les rappels de routing sur le MKL (pour rappel, ces événements seront véhiculé par le bus IAC de MacOSX).<br /></p>
+                  <p class="Body"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="Body">    Une piste MIDI supplémentaire permet de rappeler les mémoires de Masters sous le VKL.</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id4" style="height: 384px; left: 37px; position: absolute; top: 2123px; width: 626px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
+              <div class="text-content style_External_626_384" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; " class="Body"><br /></p>
+                  <p class="Body">    Horizontalement, nous voyons la section de routing des 4 différents lecteurs, avec pour chacun<br /></p>
+                  <p class="Body">un routage différent pour le canal gauche et le canal droit.<br /></p>
+                  <p class="Body">    Juste au dessous des sliders de niveaux, nous avons le numéro du HP associé. S’il est vert le départ est activé, s’il est grisé, il est éteint. Un clic sur le numéro de HP permet soit de de désactiver, soit de l’activer au niveau nominal (OdBfs).<br /></p>
+                  <p class="Body">    Au dessous du numéro du HP, il est possible d’affecter une valeur qui sera le temps de montée ou de descente du canal. A la manière d’une console numérique Yamaha, vous pouvez affecter un temps d’interpolation à un canal donné. Cette valeur est mémorisée dans le preset, et à chaque preset, vous pouvez y donner une valeur différente.<br /></p>
+                  <p class="Body">    Juste à la droite de chaque lecteur, le gestionnaire de preset permet de sauvegarder et de rappeler une mémoire de routing. Pour sauvegarder un réglage, il faut maintenir la touche SHiFT enfoncée et cliquer avec la souris sur l'emplacement souhaité. Pour rappeler un réglage, il suffit de cliquer sur l’emplacement. <br /></p>
+                  <p class="Body">    Le rappel des emplacements est possible via l’utilisation des messages de Program Change sous LIVE (et c’est là l'intérêt du bidule).<br /></p>
+                  <p class="Body"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="Body">La fenêtre des Masters:</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div style="height: 403px; width: 662px;  height: 402px; left: 20px; position: absolute; top: 936px; width: 661px; z-index: 1; " class="tinyText">
+              <div style="position: relative; width: 661px; ">
+                <img src="Principe_files/shapeimage_3.png" alt="" style="height: 403px; left: 0px; position: absolute; top: 0px; width: 662px; " />
+              </div>
+            </div>
+            
+
+
+            <div id="id5" style="height: 133px; left: 53px; position: absolute; top: 1568px; width: 626px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
+              <div class="text-content style_External_626_133" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; " class="Body">  Le V.K.L. pour le moment est composé de 2 fenêtres:<br /></p>
+                  <ol>
+                    <li style="line-height: 21px; padding-left: 8px; text-indent: -8px; " class="full-width">
+                      <p style="text-indent: -8px; " class="paragraph_style"><span style="font-size: 14px; " class="Puce">-</span><span style="width: 4px; " class="inline-block"></span>une consacrée au routage des lecteurs (à la manière d’une page d’entrées sur une console num)<br /></p>
+                    </li>
+                    <li style="line-height: 21px; padding-left: 8px; text-indent: -8px; " class="full-width">
+                      <p style="text-indent: -8px; " class="paragraph_style"><span style="font-size: 14px; " class="Puce">-</span><span style="width: 4px; " class="inline-block"></span>une fenêtre Masters, ou l’on retrouve les réglages d’EQ’s, de Delay et de niveaux à la manière de la page de masters de bus d’une console num.<br /></p>
+                    </li>
+                  </ol>
+                  <p class="Body"><br /></p>
+                  <p style="padding-bottom: 0pt; " class="Body">La fenêtre routing des lecteurs:</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div style="height: 52px; width: 655px;  height: 52px; left: 38px; position: absolute; top: 848px; width: 655px; z-index: 1; " class="tinyText style_SkipStrokeSkipFillSkipOpacity">
+              <div style="position: relative; width: 655px; ">
+                <img src="Principe_files/shapeimage_4.png" alt="La partie ableton live" style="height: 28px; left: 0px; margin-left: 5px; margin-top: 12px; position: absolute; top: 0px; width: 274px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 52px; width: 655px;  height: 52px; left: 38px; position: absolute; top: 1524px; width: 655px; z-index: 1; " class="tinyText style_SkipStrokeSkipFillSkipOpacity">
+              <div style="position: relative; width: 655px; ">
+                <img src="Principe_files/shapeimage_5.png" alt="La partie Virtual konsol for live" style="height: 28px; left: 0px; margin-left: 5px; margin-top: 12px; position: absolute; top: 0px; width: 410px; " />
+              </div>
+            </div>
+            
+
+
+            <div style="height: 459px; width: 651px;  height: 459px; left: 25px; position: absolute; top: 1703px; width: 651px; z-index: 1; " class="tinyText style_SkipStroke_4">
+              <img src="Principe_files/Routing%20des%20lecteurs.jpg" alt="" style="border: none; height: 459px; width: 652px; " />
+            </div>
+            
+
+
+            <div id="id6" style="height: 196px; left: 38px; position: absolute; top: 2977px; width: 626px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
+              <div class="text-content style_External_626_196" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; " class="Body">Dans cette fenêtre, nous voyons deux choses importantes:<br /></p>
+                  <p class="Body"><br /></p>
+                  <ol>
+                    <li style="line-height: 21px; padding-left: 8px; text-indent: -8px; " class="full-width">
+                      <p style="text-indent: -8px; " class="paragraph_style"><span style="font-size: 14px; " class="Puce">-</span><span style="width: 4px; " class="inline-block"></span>La partie Masters Faders, avec les réglages propres à chaque départ (EQ, delay, niveau, ON/OFF),  en cliquant sur le bouton de SEL de chaque tranche, une nouvelle fenêtre apparait avec des réglages plus précis. Au dessus les commandes de sauvegarde/rappel de mémoires.<br /></p>
+                    </li>
+                  </ol>
+                  <p class="Body"><br /></p>
+                  <ol>
+                    <li style="line-height: 21px; padding-left: 8px; text-indent: -8px; " class="full-width">
+                      <p style="text-indent: -8px; " class="paragraph_style"><span style="font-size: 14px; " class="Puce">-</span><span style="width: 4px; " class="inline-block"></span>La partie audio monitoring du logiciel, ou vous pourrez rapidement effectuer des réglages sur le CoreAudio, vérifier les niveaux d’entrée et de départ des signaux audio du logiciel.<br /></p>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div style="height: 457px; width: 650px;  height: 457px; left: 25px; position: absolute; top: 2513px; width: 650px; z-index: 1; " class="tinyText style_SkipStroke_4">
+              <img src="Principe_files/Section%20Masters.jpg" alt="" style="border: none; height: 457px; width: 651px; " />
+            </div>
+            
+
+
+            <div id="id7" style="height: 46px; left: 28px; position: absolute; top: 3206px; width: 645px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
+              <div class="text-content style_External_645_46" style="padding: 0px; ">
+                <div class="style">
+                  <p style="padding-top: 0pt; " class="paragraph_style_1">Copyright © 2011 V.K/Technologies - Contact: <a title="mailto:yoann.perez@gmail.com" href="mailto:yoann.perez@gmail.com">yoann.perez@gmail.com</a><br /></p>
+                  <p style="padding-bottom: 0pt; " class="paragraph_style_1">Images non contractuelles - Site en construction</p>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id8" style="height: 147px; left: 20px; position: absolute; top: 582px; width: 386px; z-index: 1; " class="style_SkipStroke_5 shape-with-text stroke_0">
+              <div class="text-content graphic_shape_layout_style_default_External_382_143" style="padding: 2px; ">
+                <div class="graphic_shape_layout_style_default"></div>
+              </div>
+            </div>
+            
+
+
+            <div id="id9" style="height: 100px; left: 300px; position: absolute; top: 678px; width: 100px; z-index: 1; " class="style_SkipStroke_6 shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_100_100" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default"></div>
+              </div>
+            </div>
+            
+
+
+            <div id="id11" style="height: 100px; left: 310px; position: absolute; top: 688px; width: 100px; z-index: 1; " class="style_SkipStroke_6 shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_100_100" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default">
+                  <div class="paragraph Body" style="padding-bottom: 0pt; padding-top: 0pt; "><div id="id10" style="height: 92px; position: relative; width: 92px; " class="style_SkipStroke_6 shape-with-text inline-block"><div class="text-content graphic_textbox_layout_style_default_External_92_92" style="padding: 0px; "><div class="graphic_textbox_layout_style_default"></div></div></div></div>
+                </div>
+                <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+              </div>
+            </div>
+            
+
+
+            <div id="id12" style="height: 100px; left: 320px; position: absolute; top: 698px; width: 100px; z-index: 1; " class="style_SkipStroke_6 shape-with-text">
+              <div class="text-content graphic_textbox_layout_style_default_External_100_100" style="padding: 0px; ">
+                <div class="graphic_textbox_layout_style_default"></div>
+              </div>
+            </div>
+            <div style="height: 3252px; line-height: 3252px; " class="spacer"> </div>
+          </div>
+          <div style="height: 100px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+            <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
